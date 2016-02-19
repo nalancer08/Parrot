@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+//#import "Parrot.h"
 
 @interface ViewController ()
 
@@ -23,7 +24,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor redColor];
+   Parrot *uno = [[Parrot alloc] init];
+    
+    uno.frame = CGRectMake(10, 100, 240, 40);
+    
+    [uno setData];
+    [self.view addSubview:uno.text];
+    
+    /*UITextField *la = [[UITextField alloc] init];
+    la.frame = CGRectMake(15, 300, 240, 40);
+    [self.view addSubview:la];
+    
+    la.backgroundColor = [UIColor greenColor];*/
+    
 }
 
 - (void)didReceiveMemoryWarning {

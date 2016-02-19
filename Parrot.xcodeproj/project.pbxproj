@@ -14,6 +14,7 @@
 		88E003381C778A6000A85F80 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E003351C778A6000A85F80 /* Default-568h@2x.png */; };
 		88E003391C778A6000A85F80 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E003361C778A6000A85F80 /* Default.png */; };
 		88E0033A1C778A6000A85F80 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E003371C778A6000A85F80 /* Default@2x.png */; };
+		88E0033D1C778C7B00A85F80 /* Parrot.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E0033C1C778C7B00A85F80 /* Parrot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		88E003351C778A6000A85F80 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88E003361C778A6000A85F80 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		88E003371C778A6000A85F80 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		88E0033B1C778C7B00A85F80 /* Parrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parrot.h; sourceTree = "<group>"; };
+		88E0033C1C778C7B00A85F80 /* Parrot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parrot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 			children = (
 				88E003211C77889C00A85F80 /* AppDelegate.h */,
 				88E003221C77889C00A85F80 /* AppDelegate.m */,
+				88E0033B1C778C7B00A85F80 /* Parrot.h */,
+				88E0033C1C778C7B00A85F80 /* Parrot.m */,
 				88E003241C77889C00A85F80 /* ViewController.h */,
 				88E003251C77889C00A85F80 /* ViewController.m */,
 				88E0032A1C77889C00A85F80 /* Assets.xcassets */,
@@ -156,6 +161,7 @@
 				88E003261C77889C00A85F80 /* ViewController.m in Sources */,
 				88E003231C77889C00A85F80 /* AppDelegate.m in Sources */,
 				88E003201C77889C00A85F80 /* main.m in Sources */,
+				88E0033D1C778C7B00A85F80 /* Parrot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

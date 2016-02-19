@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Parrot.h"
 
 @interface ViewController : UIViewController
 
